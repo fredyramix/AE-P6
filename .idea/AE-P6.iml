@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="AE-P5" />
     <orderEntry type="module" module-name="AE-P4" />
+    <orderEntry type="module" module-name="AE-P3" />
   </component>
 </module>

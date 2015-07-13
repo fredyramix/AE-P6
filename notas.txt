@@ -1,3 +1,6 @@
 algoritmos de clasificación.
 -KNN
 -Neural Networks.
+
+
+Generar la selección.
