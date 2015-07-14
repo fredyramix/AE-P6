@@ -49,7 +49,7 @@ def openFileDat(opcion,dic):
 	return tamano,mA,mB
 
 def main():
-	mejor=[]
+    mejor=[]
 	mejor.append(-1)
 	mejor.append(-1)
 	print "Practica 6 multiplicacion de matrices:"
@@ -58,17 +58,4 @@ def main():
 	TAMANIO_INDIVIDUO ,mA,mB=openFileDat(opcion,dic)
 	poblacion = crearPoblacion(TAMANIO_POBLACION, TAMANIO_INDIVIDUO)
 	aptitudes = calcularAptitudPoblacion(poblacion,mA,mB,TAMANIO_INDIVIDUO)
-	mejor = elitismo(poblacion,aptitudes,mejor)
-	mejor = elitismo(poblacion, aptitudes,mejor)
-	print mejor
-    while True:
-    	print poblacion
-    	cruzados = cruzar(poblacion)
-    	print cruzados
-    	poblacion=mutar(cruzados,TAMANIO_INDIVIDUO)
-    	aptitudes =calclarAptitudPoblacion(poblacion,mA,mB,TAMANIO_POBLACION)
-    	mejor=elitismo(poblacion,aptitudes,mejor)
-    	print "El mejor es:" 
-    	print mejor
-
 main()

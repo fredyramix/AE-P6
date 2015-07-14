@@ -15,11 +15,6 @@ def penalizar(poblacion,aptitudes,n):
                 #no se penaliza
                 penita=penita+0
         penalizados.append(penita)
-
     for i in range(0,len(penalizados)):
         penalizados[i]=penalizados[i]+aptitudes[i]
-
-
-    print penalizados
-    raw_input("es")
     return penalizados
