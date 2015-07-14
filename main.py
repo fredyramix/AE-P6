@@ -1,20 +1,19 @@
-__author__ = 'freddy'
+__author__='Freddy'
+
 from os import listdir
-from os.path import isfile, join
-from funcionAptitud import *
+from salida import escribir
+#from os.path import isfile,join
+from funcionAptitud import calcularAptitudPoblacion
 from SeleccionarMejor import elitismo
 from cruzamiento import cruzar
-from seleccion import seleccionar
-from penalizacion import penalizar
+#from seleccion import seleccionar
 from mutacion import mutar
+import time
+
 import random
 
-MINIMIZACION = 1.0
-MAXIMIZACION = -1.0
-TAMANIO_POBLACION = 20
-MAX_NUMERO_GENERACIONES = 1000
-
-TIPO_PROBLEMA = MAXIMIZACION
+TAM_POBLACION=20
+NUM_GENERACIONES=10000
 
 def crearPoblacion(tamanioPoblacion, tamanioIndividuo):
 	return [[random.randint(0,tamanioIndividuo-1) for i in range(tamanioIndividuo)] for j in range(tamanioPoblacion)]
@@ -47,28 +46,62 @@ def openFileDat(opcion,dic):
 		for j in range(len(mB)):
 			mB[i][j]=int(j)
 	return tamano,mA,mB
-
-def main():
-	mejor=[]
+def main(start_time):
+	outfile=open("Resultados/salida.txt",'w')
+	mejor = []
 	mejor.append(-1)
 	mejor.append(-1)
-	print "Practica 6 multiplicacion de matrices:"
-	print "Selecciona una opcion []:"
-	opcion,dic=leerArchivos()
-	TAMANIO_INDIVIDUO ,mA,mB=openFileDat(opcion,dic)
-	poblacion = crearPoblacion(TAMANIO_POBLACION, TAMANIO_INDIVIDUO)
-	aptitudes = calcularAptitudPoblacion(poblacion,mA,mB,TAMANIO_INDIVIDUO)
-	mejor = elitismo(poblacion,aptitudes,mejor)
-	mejor = elitismo(poblacion, aptitudes,mejor)
-	print mejor
-    while True:
-    	print poblacion
-    	cruzados = cruzar(poblacion)
-    	print cruzados
-    	poblacion=mutar(cruzados,TAMANIO_INDIVIDUO)
-    	aptitudes =calclarAptitudPoblacion(poblacion,mA,mB,TAMANIO_POBLACION)
-    	mejor=elitismo(poblacion,aptitudes,mejor)
-    	print "El mejor es:" 
-    	print mejor
+	print "============Practica 6 Multiplicacion de matrices========"
+	opcion,dic = leerArchivos()
+	TAM_INDIVIDUO,mA,mB = openFileDat(opcion, dic)
+	poblacion = crearPoblacion(TAM_POBLACION, TAM_INDIVIDUO)
+	'''for pob in poblacion:
+		print pob'''
+	aptitudes = calcularAptitudPoblacion(poblacion, mA, mB, TAM_INDIVIDUO)
 
-main()
+	#print aptitudes
+	mejor,b = elitismo(poblacion, aptitudes,mejor)
+	#print mejor
+	g=0
+	while True:
+		cruzados = cruzar(poblacion)
+		'''for cruz in cruzados:
+			print cruz
+		print "============"'''
+		poblacion=mutar(cruzados,TAM_INDIVIDUO)
+		'''for pob in poblacion:
+			print pob
+		print "============"
+		raw_input("Esperad")'''
+		aptitudes = calcularAptitudPoblacion(poblacion, mA, mB, TAM_INDIVIDUO)
+		#raw_input("aqui")
+		mejor,bandera = elitismo(poblacion, aptitudes,mejor)
+		if mejor[1]==0:
+			break
+		else:
+			if bandera==True:
+				a="El mejor hasta ahora:"
+				escribir(outfile,a)
+				a= "Generacion: " +str(g)
+				escribir(outfile,a)
+				a= "Vector: "+str(mejor[0])
+				escribir(outfile,a)
+				a="Aptitud: "+str(mejor[1])
+				escribir(outfile,a)
+				a="Tiempo: " +str(time.time()-start_time)+" segundos"
+				escribir(outfile,a)
+			if mejor[1]==1816000 and opcion=='3':
+				break
+		g+=1
+	a= "Termino en la generacion: " +str(g)
+	escribir(outfile,a)
+	a= "Vector: "+str(mejor[0])
+	escribir(outfile,a)
+	a= "Aptitud: "+str(mejor[1])
+	escribir(outfile,a)
+	a="Tiempo: " +str(time.time()-start_time)+" segundos"
+	escribir(outfile,a)
+	outfile.close()
+
+start_time = time.time()
+main(start_time)

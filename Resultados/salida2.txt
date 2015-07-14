@@ -1,0 +1,132 @@
+C:\Python27\python.exe C:/Users/jramirez/Documents/Evolutivos/AE-P6/main.py
+============Practica 6 Multiplicacion de matrices========
+[0]prueba05.dat
+[1]prueba12.dat
+[2]prueba15.dat
+[3]prueba30.dat
+Ingresa una opcion:  1
+El mejor hasta ahora:
+Generacion: 3
+Vector: [7, 11, 2, 9, 7, 4, 6, 4, 0, 2, 0, 6]
+Aptitud: 2856
+Tiempo: 9.24399995804 segundos
+El mejor hasta ahora:
+Generacion: 29
+Vector: [10, 2, 7, 5, 0, 0, 1, 8, 5, 0, 3, 4]
+Aptitud: 2484
+Tiempo: 9.27599978447 segundos
+El mejor hasta ahora:
+Generacion: 88
+Vector: [5, 2, 1, 7, 1, 4, 1, 3, 10, 0, 5, 0]
+Aptitud: 2472
+Tiempo: 9.34799981117 segundos
+El mejor hasta ahora:
+Generacion: 93
+Vector: [6, 10, 6, 7, 0, 5, 0, 6, 6, 2, 0, 1]
+Aptitud: 2244
+Tiempo: 9.35399985313 segundos
+El mejor hasta ahora:
+Generacion: 466
+Vector: [9, 7, 3, 2, 1, 6, 1, 2, 3, 6, 3, 0]
+Aptitud: 2172
+Tiempo: 9.82299995422 segundos
+El mejor hasta ahora:
+Generacion: 1709
+Vector: [10, 9, 11, 3, 0, 3, 3, 7, 0, 4, 2, 0]
+Aptitud: 2136
+Tiempo: 11.3229999542 segundos
+El mejor hasta ahora:
+Generacion: 1938
+Vector: [3, 10, 8, 3, 8, 4, 0, 3, 1, 2, 2, 1]
+Aptitud: 1980
+Tiempo: 11.5999999046 segundos
+El mejor hasta ahora:
+Generacion: 1939
+Vector: [1, 4, 10, 2, 7, 1, 0, 3, 1, 2, 2, 1]
+Aptitud: 1692
+Tiempo: 11.6009998322 segundos
+El mejor hasta ahora:
+Generacion: 1959
+Vector: [1, 10, 10, 2, 2, 1, 0, 3, 1, 2, 2, 1]
+Aptitud: 1524
+Tiempo: 11.6259999275 segundos
+El mejor hasta ahora:
+Generacion: 2011
+Vector: [1, 10, 10, 2, 2, 1, 0, 3, 1, 1, 2, 1]
+Aptitud: 1416
+Tiempo: 11.6889998913 segundos
+El mejor hasta ahora:
+Generacion: 2131
+Vector: [1, 3, 10, 4, 2, 1, 0, 3, 1, 1, 2, 1]
+Aptitud: 1404
+Tiempo: 11.8349997997 segundos
+El mejor hasta ahora:
+Generacion: 8474
+Vector: [1, 2, 1, 6, 5, 7, 3, 0, 0, 1, 1, 0]
+Aptitud: 1368
+Tiempo: 19.4909999371 segundos
+El mejor hasta ahora:
+Generacion: 13161
+Vector: [4, 4, 11, 11, 6, 0, 0, 0, 1, 0, 1, 1]
+Aptitud: 1344
+Tiempo: 25.3599998951 segundos
+El mejor hasta ahora:
+Generacion: 21060
+Vector: [1, 11, 4, 8, 3, 0, 3, 0, 0, 1, 2, 0]
+Aptitud: 1224
+Tiempo: 35.3359999657 segundos
+El mejor hasta ahora:
+Generacion: 21140
+Vector: [1, 11, 4, 8, 2, 0, 3, 0, 0, 1, 2, 0]
+Aptitud: 1176
+Tiempo: 35.4339997768 segundos
+El mejor hasta ahora:
+Generacion: 21253
+Vector: [6, 5, 11, 8, 1, 0, 3, 0, 0, 1, 0, 0]
+Aptitud: 984
+Tiempo: 35.5759999752 segundos
+El mejor hasta ahora:
+Generacion: 36024
+Vector: [3, 11, 0, 6, 1, 0, 3, 0, 1, 0, 0, 1]
+Aptitud: 840
+Tiempo: 53.6559998989 segundos
+El mejor hasta ahora:
+Generacion: 75742
+Vector: [1, 5, 2, 2, 4, 2, 1, 1, 0, 1, 0, 0]
+Aptitud: 756
+Tiempo: 103.121999979 segundos
+El mejor hasta ahora:
+Generacion: 484236
+Vector: [3, 6, 1, 4, 0, 4, 0, 0, 0, 1, 0, 1]
+Aptitud: 720
+Tiempo: 605.15899992 segundos
+El mejor hasta ahora:
+Generacion: 522004
+Vector: [1, 4, 2, 2, 0, 0, 1, 1, 0, 0, 3, 0]
+Aptitud: 684
+Tiempo: 653.625 segundos
+El mejor hasta ahora:
+Generacion: 615087
+Vector: [10, 0, 1, 2, 0, 2, 0, 1, 0, 1, 0, 1]
+Aptitud: 540
+Tiempo: 772.179999828 segundos
+El mejor hasta ahora:
+Generacion: 1804316
+Vector: [1, 2, 4, 1, 1, 1, 0, 0, 0, 0, 0, 2]
+Aptitud: 528
+Tiempo: 2235.93899989 segundos
+El mejor hasta ahora:
+Generacion: 1804317
+Vector: [11, 1, 4, 2, 1, 0, 0, 0, 0, 0, 0, 2]
+Aptitud: 492
+Tiempo: 2235.93999982 segundos
+El mejor hasta ahora:
+Generacion: 1804320
+Vector: [1, 2, 4, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Aptitud: 264
+Tiempo: 2235.94299984 segundos
+El mejor hasta ahora:
+Generacion: 1804321
+Vector: [11, 1, 4, 2, 1, 0, 0, 0, 0, 0, 0, 0]
+Aptitud: 228
+Tiempo: 2235.94499993 segundos
