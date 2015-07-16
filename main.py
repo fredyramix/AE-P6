@@ -39,12 +39,13 @@ def openFileDat(opcion,dic):
 	del salida[0] #eliminamos el parametro del tamano
 	mA= salida[:tamano]
 	mB= salida[tamano:]
-	for i in range(len(mA)):
-		for j in range(len(mA)):
-			mA[i][j]=int(j)
-	for i in range(len(mB)):
-		for j in range(len(mB)):
-			mB[i][j]=int(j)
+	for i in range(0,len(mA)):
+		for j in range(0,len(mA)):
+			#print mA[i][j]
+			mA[i][j]=int(mA[i][j])
+	for i in range(0,len(mB)):
+		for j in range(0,len(mB)):
+			mB[i][j]=int(mB[i][j])
 	return tamano,mA,mB
 def main(start_time):
 	outfile=open("Resultados/salida.txt",'w')
@@ -54,9 +55,8 @@ def main(start_time):
 	print "============Practica 6 Multiplicacion de matrices========"
 	opcion,dic = leerArchivos()
 	TAM_INDIVIDUO,mA,mB = openFileDat(opcion, dic)
+
 	poblacion = crearPoblacion(TAM_POBLACION, TAM_INDIVIDUO)
-	'''for pob in poblacion:
-		print pob'''
 	aptitudes = calcularAptitudPoblacion(poblacion, mA, mB, TAM_INDIVIDUO)
 
 	#print aptitudes
