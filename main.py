@@ -59,7 +59,8 @@ def main(start_time):
 	poblacion = crearPoblacion(TAM_POBLACION, TAM_INDIVIDUO)
 	aptitudes = calcularAptitudPoblacion(poblacion, mA, mB, TAM_INDIVIDUO)
 
-	#print aptitudes
+	print aptitudes
+	raw_input("aaaaaaa")
 	mejor,b = elitismo(poblacion, aptitudes,mejor)
 	#print mejor
 	g=0
