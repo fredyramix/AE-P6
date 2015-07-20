@@ -31,4 +31,4 @@ def main():
     print "==========Aptitud================="
     print aptitud
 
-main()
+#main()

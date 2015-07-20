@@ -1,0 +1,95 @@
+El mejor hasta ahora:
+Generacion: 0
+Vector: [15, 10, 21, 4, 2, 15, 13, 24, 1, 17, 9, 14, 26, 0, 5, 1, 28, 12, 5, 23, 29, 8, 14, 15, 22, 1, 11, 19, 1, 8]
+Aptitud: 3362658
+Tiempo: 1474.68600798 segundos
+El mejor hasta ahora:
+Generacion: 0
+Vector: [29, 22, 1, 23, 11, 5, 2, 19, 20, 12, 29, 4, 17, 9, 9, 27, 14, 24, 18, 15, 9, 9, 26, 8, 8, 6, 25, 11, 21, 3]
+Aptitud: 3109640
+Tiempo: 1474.69300199 segundos
+El mejor hasta ahora:
+Generacion: 1234
+Vector: [4, 25, 29, 3, 4, 4, 27, 11, 29, 19, 24, 4, 6, 24, 10, 4, 29, 23, 14, 18, 5, 26, 1, 20, 23, 4, 2, 0, 15, 28]
+Aptitud: 3094696
+Tiempo: 1478.92236495 segundos
+El mejor hasta ahora:
+Generacion: 3640
+Vector: [15, 10, 16, 15, 26, 21, 8, 9, 18, 11, 22, 24, 3, 29, 6, 15, 23, 14, 15, 28, 28, 5, 15, 17, 2, 9, 4, 27, 3, 19]
+Aptitud: 3049322
+Tiempo: 1486.17831397 segundos
+El mejor hasta ahora:
+Generacion: 7783
+Vector: [29, 23, 7, 13, 22, 16, 3, 10, 4, 24, 11, 5, 27, 9, 19, 26, 6, 12, 8, 21, 21, 28, 20, 24, 13, 22, 13, 2, 18, 15]
+Aptitud: 3008804
+Tiempo: 1497.52876496 segundos
+El mejor hasta ahora:
+Generacion: 13566
+Vector: [26, 19, 18, 18, 25, 6, 10, 4, 19, 16, 8, 26, 20, 23, 7, 2, 29, 22, 11, 1, 15, 3, 28, 26, 5, 12, 24, 14, 13, 20]
+Aptitud: 2943930
+Tiempo: 1513.46575904 segundos
+El mejor hasta ahora:
+Generacion: 40463
+Vector: [8, 23, 29, 6, 15, 7, 27, 0, 25, 26, 29, 15, 8, 3, 5, 17, 14, 18, 10, 22, 24, 19, 23, 28, 2, 9, 20, 15, 21, 4]
+Aptitud: 2895720
+Tiempo: 1586.91770506 segundos
+El mejor hasta ahora:
+Generacion: 75553
+Vector: [18, 8, 0, 25, 12, 1, 22, 11, 1, 5, 15, 4, 15, 2, 20, 26, 24, 29, 7, 13, 11, 15, 27, 23, 9, 3, 14, 17, 11, 28]
+Aptitud: 2872812
+Tiempo: 1682.87934184 segundos
+El mejor hasta ahora:
+Generacion: 75557
+Vector: [18, 8, 0, 25, 12, 1, 22, 11, 1, 5, 15, 4, 15, 2, 20, 26, 24, 21, 7, 13, 11, 15, 27, 23, 9, 3, 14, 17, 11, 28]
+Aptitud: 2869268
+Tiempo: 1682.89045691 segundos
+El mejor hasta ahora:
+Generacion: 236647
+Vector: [3, 22, 1, 8, 8, 19, 4, 26, 18, 14, 1, 5, 29, 7, 28, 20, 9, 18, 23, 27, 8, 25, 15, 6, 16, 11, 0, 21, 8, 13]
+Aptitud: 2859014
+Tiempo: 2123.25910497 segundos
+El mejor hasta ahora:
+Generacion: 283428
+Vector: [12, 7, 25, 4, 1, 15, 5, 5, 27, 23, 14, 20, 13, 26, 0, 9, 10, 16, 19, 6, 5, 22, 17, 5, 24, 21, 5, 3, 29, 1]
+Aptitud: 2811530
+Tiempo: 2251.26466393 segundos
+El mejor hasta ahora:
+Generacion: 444677
+Vector: [2, 18, 20, 21, 14, 25, 27, 2, 7, 17, 8, 12, 10, 9, 29, 27, 8, 28, 13, 1, 15, 6, 26, 19, 3, 4, 22, 0, 2, 23]
+Aptitud: 2809258
+Tiempo: 2691.52488899 segundos
+El mejor hasta ahora:
+Generacion: 444683
+Vector: [2, 18, 20, 21, 14, 25, 27, 2, 7, 17, 8, 12, 10, 9, 29, 27, 8, 28, 13, 1, 15, 6, 26, 19, 3, 4, 22, 0, 2, 5]
+Aptitud: 2771138
+Tiempo: 2691.54180384 segundos
+El mejor hasta ahora:
+Generacion: 470612
+Vector: [0, 11, 12, 25, 17, 4, 3, 15, 23, 21, 20, 13, 27, 20, 28, 18, 2, 7, 26, 24, 5, 16, 29, 1, 21, 20, 14, 19, 22, 20]
+Aptitud: 2766360
+Tiempo: 2762.3997879 segundos
+El mejor hasta ahora:
+Generacion: 882116
+Vector: [13, 11, 4, 22, 19, 9, 12, 23, 28, 1, 17, 8, 26, 26, 5, 12, 7, 2, 20, 18, 25, 16, 28, 3, 14, 6, 27, 21, 10, 0]
+Aptitud: 2724444
+Tiempo: 3886.00487995 segundos
+El mejor hasta ahora:
+Generacion: 1724985
+Vector: [20, 4, 17, 25, 12, 29, 26, 11, 2, 22, 14, 25, 7, 9, 13, 0, 24, 14, 16, 23, 18, 8, 3, 21, 28, 6, 27, 19, 15, 11]
+Aptitud: 2722970
+Tiempo: 6192.42958784 segundos
+El mejor hasta ahora:
+Generacion: 1801185
+Vector: [18, 6, 11, 19, 5, 16, 9, 12, 22, 22, 12, 23, 20, 4, 3, 15, 17, 25, 21, 1, 14, 0, 13, 7, 28, 27, 29, 18, 8, 26]
+Aptitud: 2721280
+Tiempo: 6402.23134589 segundos
+El mejor hasta ahora:
+Generacion: 1801207
+Vector: [18, 6, 11, 19, 5, 24, 9, 12, 22, 22, 12, 23, 20, 4, 3, 15, 17, 25, 21, 1, 14, 0, 13, 7, 28, 27, 29, 18, 8, 26]
+Aptitud: 2720408
+Tiempo: 6402.29218984 segundos
+El mejor hasta ahora:
+Generacion: 1801211
+Vector: [18, 6, 11, 19, 5, 24, 9, 12, 22, 22, 18, 23, 20, 4, 3, 15, 17, 25, 21, 1, 14, 0, 13, 7, 28, 27, 29, 18, 8, 26]
+Aptitud: 2624128
+Tiempo: 6402.30331397 segundos

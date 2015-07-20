@@ -1,20 +1,18 @@
-__author__ = 'freddy'
-def penalizar(poblacion,aptitudes,n):
-    penalizados=[]
-    pena=1000000
-    for individuo in poblacion:
-        penita=0
-        for cromosoma in individuo:
-            if cromosoma<0:
-                #penalizar
-                penita=penita+pena
-            elif cromosoma>n:
-                penita=penita+pena
-                #penalizar
-            else:
-                #no se penaliza
-                penita=penita+0
-        penalizados.append(penita)
-    for i in range(0,len(penalizados)):
-        penalizados[i]=penalizados[i]+aptitudes[i]
-    return penalizados
+def penalizar(poblacion,aptitudes):
+	penota=100000
+	repeticiones=0
+	lista_de_penas=[]
+	for i in poblacion:
+		repeticiones=0
+		for j in range(0,len(i)):
+			x=i.count(j)
+			if x!=1:
+				repeticiones+=x
+		lista_de_penas.append(repeticiones*penota)
+	aptis=sumar_pena_aptitud(aptitudes, lista_de_penas)
+	return aptis
+
+def sumar_pena_aptitud(apti,penas):
+	for i in range(0,len(apti)):
+		apti[i]=apti[i]+penas[i]
+	return apti
